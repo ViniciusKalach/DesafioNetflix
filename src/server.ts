@@ -8,7 +8,7 @@ const app = express();
 
 // Configuração do middleware CORS
 const corsOptions = {
-    origin: 'https://ncc-front-git-main-vinicius-kalachs-projects.vercel.app', 
+    origin: 'https://netflexsite.vercel.app/', 
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
   };
