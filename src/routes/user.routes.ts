@@ -8,6 +8,6 @@ const loginUserController = new LoginUserController();
 const userRoutes = Router();
 
 userRoutes.post("/create", createrUserController.handle);
-userRoutes.get("/login", loginUserController.handle)
+userRoutes.post("/login", loginUserController.handle)
 
 export { userRoutes };

@@ -1,9 +1,20 @@
 import  "express-async-errors";
 import express, { NextFunction, Request, Response } from 'express';
+import cors from 'cors';
 import { routes } from './routes';
 import { AppError } from "./erros/AppError";
 
 const app = express();
+
+// Configuração do middleware CORS
+const corsOptions = {
+    origin: 'http://localhost:5173', // Substitua isso pela URL do seu frontend
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    credentials: true,
+  };
+  
+app.use(cors(corsOptions));
+  
 
 app.use(express.json());
 
