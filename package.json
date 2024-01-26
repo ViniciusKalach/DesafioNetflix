@@ -4,7 +4,8 @@
   "description": "Projeto desafio que visa elaborar uma pequena aplicação que simule uma tela de login e uma tela de vitrine no estilo da Netflix. ",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --exit-child --transpile-only --ignore-watch node_modules src/server.ts"
+    "dev": "ts-node-dev --exit-child --transpile-only --ignore-watch node_modules src/server.ts",
+    "postinstall": "prisma generate"
   },
   "author": "Vinícius Kalach",
   "license": "ISC",
