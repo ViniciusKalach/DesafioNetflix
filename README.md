@@ -12,3 +12,9 @@ Project challenge that aims to develop a compact application that simulates a lo
 
 - Login user
 - Register user
+
+# Database
+
+[PT/BR] Desenvolvi o banco de dados com o o MySQL e Prisma (ORM). Ocorreu-me alguns problemas na hora de testar a API com o back-end e o front-end já hospedado pelo fato do banco de dados estar localhost. Para resolvir isso fui atrás do UOL HOST, que oferecia suporte para hospedar o MySQL. 
+
+I developed the database with MySQL and Prisma (ORM). I had some problems when testing the API with the back-end and the front-end already hosted due to the fact that the database is localhost. To solve this, I went after UOL HOST, which offered support for hosting MySQL. 
